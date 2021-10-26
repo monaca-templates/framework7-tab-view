@@ -29,7 +29,7 @@
   "_resolution": {
     "type": "version",
     "tag": "2.1.1",
-    "commit": "b0ccf08f62c112c095d015c13f9464c416c4e381"
+    "commit": "79cad09a42c5af44bb77843ad6367a887768d5a8"
   },
   "_source": "https://github.com/monaca/monaca-component-monaca-core-utils.git",
   "_target": "2.1.1",
