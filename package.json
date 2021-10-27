@@ -7,8 +7,9 @@
   "license": "UNLICENSED",
   "scripts": {
     "dev": "browser-sync start -s www/ --watch --port 8080 --ui-port 8081",
-    "postinstall": "cpy ./node_modules/framework7-icons/fonts/*.* ./www/fonts/",
-    "monaca:preview": "npm run dev"
+    "copy-f7": "cpy ./node_modules/framework7-icons/fonts/*.* ./www/fonts/",
+    "monaca:preview": "npm run dev",
+    "prepare": "npm run copy-f7"
   },
   "browserslist": [
     "Android >= 7",
